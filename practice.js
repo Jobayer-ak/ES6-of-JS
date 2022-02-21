@@ -1,3 +1,16 @@
+//Task 3.1:
+const arrowFunction = (num) => num / 5;
+console.log(arrowFunction(10));
+
+// Task 3.2
+const multiplyFunc = (num1, num2) => (num1 + 2) * (num2 + 2);
+
+console.log(multiplyFunc(2, 2));
+
+// task 3.3
+const onlyMultiply = (num1, num2, num3) => num1 * num2 * num3;
+console.log(onlyMultiply(2, 3, 4));
+
 // task 5. array.map()
 const numbers = [10, 5, 9, 7, 20, 12, 15, 21];
 const fiveArrResult = numbers.map((result) => result * 5);
